@@ -1,4 +1,4 @@
-import "./App.css";
+import "./assets/Style/App.css";
 import Mahadev from "./assets/Img/mahadev.jpg";
 
 
