@@ -1,59 +1,26 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-.mahadev {
+.Parent {
   display: flex;
-  position: absolute;
-  height: 100vh;
-  width: 100%;
-  /* object-fit: cover; */
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  display: flex;
-  flex-direction: column;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.App-intro {
-  display: flex;
-  top:500px;
-  position: relative;
+  padding-top: 5rem;
+  gap: 3rem;
   justify-content: center;
-  align-content: center;
-  min-height: fit-content;
-  font-weight: 600;
-  color: black;
 }
 
-.App-intro :hover{
- font-size: x-large;
- animation: fadeIn 3s;
- color : red;
+.positive,
+.negative,
+.center-content {
+  border-radius: 3px;
+  text-align: center;
+  color: red;
+  width: 50px;
+  font-size: xx-large;
+}
+.center-content {
+  color: blue;
+}
+
+.text-content {
+  display: flex;
+  text-align: left;
+  color: purple;
+  font-size: xx-large;
 }
