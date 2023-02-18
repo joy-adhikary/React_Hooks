@@ -1,23 +1,19 @@
+import "./App.css";
+import Mahadev from "./assets/Img/mahadev.jpg";
 
-import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-      
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img src={Mahadev} className="mahadev" alt="Mahadev" />
       </header>
+      <div className="App-intro">
+        <p>
+          This is the main repository of the project.Every hook components has a
+          unique branch named . just go to the that branch and run it .
+        </p>
+      </div>
     </div>
   );
 }
