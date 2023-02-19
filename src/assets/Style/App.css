@@ -4,7 +4,16 @@
   gap: 3rem;
   justify-content: center;
 }
-
+.header{
+  display: flex;
+  justify-content: center;
+  color:brown
+}
+.x{
+  display: flex;
+  justify-content: center;
+  padding-top:5rem;
+}
 .positive,
 .negative,
 .center-content {
