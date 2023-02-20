@@ -2,7 +2,7 @@ import "../assets/Style/App.css";
 import { useState } from "react";
 
 function AdvanceUSeState() {
-  //! so lets say , amader akn object niye  kaj korty hobe tahole use state 2 vabe kora jai . 1st way hocche ak bar a r 2nd way hocche ak akta kore destructure kore ber kore ene alada alada usestate dore kora
+  //! so lets say , amader akn object niye  kaj korty hobe tahole use state a 2 vabe kora jai . 1st way hocche akta akta kore destructure kore ber kore ene alada alada usestate dore kora R 2nd way hocche ak bar a 
 
   //? 1st way and most efficient way is
 
@@ -33,8 +33,8 @@ function AdvanceUSeState() {
 
   return (
     <div className="Parent">
-      <div className="text-content">UseState Advace</div>
-      {/* //! change only count value  */}
+      <div className="text-content">UseState Advanced</div>
+      {/* //! it will change , only count value  */}
       <button className="negative" onClick={CountOnly}>
         -
       </button>
