@@ -82,20 +82,20 @@ function AdvanceUseEffect() {
       });
 
     // ! This one is the clean up function .. its empact a lot in efficiency
-    return () => {
+    return (() => {
       Iscancelled = false;
-    };
+    });
   }, []);
 
   useEffect(() => {
     console.log(
-      "this is the 1st console from the useeffect but this will run later "
+      "this is the 1st console from the useEffect but this will run later "
     );
     // some functions or sometings
 
     //! clean up fuction
     return () => {
-      // ? celar somthing from the previous effect
+      // ? clean somthing from the previous effect
       console.log("clean up function executed");
     };
   }, [toggle]);
