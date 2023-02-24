@@ -1,15 +1,14 @@
 
 
 import "./assets/Style/App.css";
-// import UseRef from "./component/UseRef.js"
-import UseRef from "./component/UseRef2.js";
-
+// import CustomHookExample from "./component/Advance/CustomHookExample";
+import CustomHookExample2 from "./component/Basic/BasicCustomHookExample";
 
 function App() {
   
   return (
     <>
-      <UseRef/>
+      <CustomHookExample2/>
     </>
   );
 }
