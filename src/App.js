@@ -1,14 +1,13 @@
 
 
 import "./assets/Style/App.css";
-// import CustomHookExample from "./component/Advance/CustomHookExample";
-import CustomHookExample2 from "./component/Basic/BasicCustomHookExample";
+import CustomHookExample from "./component/UseToggleHook";
 
 function App() {
   
   return (
     <>
-      <CustomHookExample2/>
+      <CustomHookExample/>
     </>
   );
 }
