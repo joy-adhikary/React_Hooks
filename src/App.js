@@ -1,7 +1,7 @@
 
 
 import "./assets/Style/App.css";
-import CustomHookExample from "./component/UseToggleHook";
+import CustomHookExample from "./component/UseDebounceHook.js";
 
 function App() {
   
